@@ -8,5 +8,5 @@ test('Multiply two numbers <multiplyTwo>', async () => {
 })
 test('Multiply three numbers <multiplyThree>', async () => {
     const result = await multiplyThree(2,3,4);
-    expect(result).toBe(26);
+    expect(result).toBe(24);
 })
