@@ -1,3 +1,157 @@
 {
-    "files": []
+  "files": [
+    {
+      "path": "divide.js",
+      "functions": [
+        {
+          "name": "divide",
+          "comment": "Remember to write a comment",
+          "params": "a,b",
+          "async": "false",
+          "status": "1",
+          "functionString": "function divide(a, b) {\n    return a / b;\n}",
+          "testCases": []
+        }
+      ]
+    },
+    {
+      "path": "multiply.js",
+      "functions": [
+        {
+          "name": "multiplyTwo",
+          "comment": "",
+          "params": "a,b",
+          "async": "false",
+          "status": "2",
+          "functionString": "function multiplyTwo(a, b) {\n    return a * b;\n}",
+          "testCases": [
+            {
+              "description": "Multiply two numbers <multiplyTwo>",
+              "arguments": [
+                "3",
+                "4"
+              ],
+              "matcher": "toBe",
+              "expected": "12",
+              "passed": true
+            }
+          ]
+        },
+        {
+          "name": "multiplyThree",
+          "comment": "",
+          "params": "a,b,c",
+          "async": "false",
+          "status": "2",
+          "functionString": "function multiplyThree(a, b, c) {\n    return a * b * c;\n}",
+          "testCases": [
+            {
+              "description": "Multiply three numbers <multiplyThree>",
+              "arguments": [
+                "2",
+                "3",
+                "4"
+              ],
+              "matcher": "toBe",
+              "expected": "24",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "square.js",
+      "functions": [
+        {
+          "name": "square",
+          "comment": "",
+          "params": "a",
+          "async": "false",
+          "status": "2",
+          "functionString": "function square(a) {\n    return a * a;\n}",
+          "testCases": [
+            {
+              "description": "Square a negative number <square>",
+              "arguments": [
+                "-4"
+              ],
+              "matcher": "toBe",
+              "expected": "16",
+              "passed": true
+            },
+            {
+              "description": "Square a positive number <square>",
+              "arguments": [
+                "8"
+              ],
+              "matcher": "toBe",
+              "expected": "64",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "subtraction.js",
+      "functions": [
+        {
+          "name": "subtract",
+          "comment": "",
+          "params": "a,b",
+          "async": "false",
+          "status": "2",
+          "functionString": "function subtract(a, b) {\n    return a - b;\n}",
+          "testCases": [
+            {
+              "description": "Subtract two numbers <subtract>",
+              "arguments": [
+                "5",
+                "8"
+              ],
+              "matcher": "toBe",
+              "expected": "-3",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sum.js",
+      "functions": [
+        {
+          "name": "sumTwo",
+          "comment": "This function will not be tested",
+          "params": "a,b",
+          "async": "false",
+          "status": "1",
+          "functionString": "function sumTwo(a, b) {\n    return a + b;\n}",
+          "testCases": []
+        },
+        {
+          "name": "sumThree",
+          "comment": "",
+          "params": "a,b,c",
+          "async": "false",
+          "status": "2",
+          "functionString": "function sumThree(a, b, c) {\n    return a + b + c;\n}",
+          "testCases": [
+            {
+              "description": "Sum three numbers <sumThree>",
+              "arguments": [
+                "1",
+                "2",
+                "3"
+              ],
+              "matcher": "toBe",
+              "expected": "6",
+              "passed": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
